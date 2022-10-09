@@ -10,7 +10,6 @@
 body {
   background: black;
 }
-
 .main {
   display: flex;
   justify-content: center;
@@ -29,4 +28,11 @@ body {
 .img{
   width:800px;
    height:auto;
+}
+
+.questions{
+  height:80vh;
+        background: url('https://cloud-5ukt231zm-hack-club-bot.vercel.app/0hack_club_assemble_ltnj_00021_1.png'), black;
+        background-size: cover;
+        color: white;
 }
