@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+.hacktext {
+  font-family: "Space Grotesk", sans-serif;
+}
+body {
+  background: black;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../public/assets/assemble.jpg");
+  background-size: cover;
+  background-postion: center;
+  color: white;
+}
+
+.hackathon{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.img{
+  width:800px;
+   height:auto;
+}
