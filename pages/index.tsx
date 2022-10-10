@@ -76,7 +76,7 @@ const Home: NextPage = () => {
         <div className="text-white md:w-[80%] items-center mx-auto justify-between px-10">
           <div className="md:flex gap-2">
             <div className="border-[4px] border-gray-700 md:w-[40%] px-5  mt-2 ">
-              <div className="font-extrabold text-[32px] mt-">
+              <div className="font-extrabold text-[32px]">
                 👥 Create Lifelong Memories
               </div>
               <div className=" text-[20px] hackathon font-medium">
@@ -99,7 +99,7 @@ const Home: NextPage = () => {
             </div>
             <div className="items-center text-[24px] bg-white text-black px-5 mt-5 pt-5 pb-5 hackathon">
               <span className="font-bold">Date & Time:</span> Starts at 6:00pm
-              on December 17th and ends at 10:00am on December 18th.
+              on December 17th and ends at 10:00am on December 19th.
             </div>
             <div className="items-center text-[24px] bg-white text-black px-5 mt-5 pt-5 pb-5 hackathon">
               <span className="font-bold">Venue:</span> TBD
@@ -116,9 +116,11 @@ const Home: NextPage = () => {
               masks (for optional but recommended usage, inline with MOH
               guidelines).
             </div>
+            <a href="http://register.hackbahamas.com/">
             <button className="items-center text-[24px] bg-yellow-500 text-white px-5 mt-5 pt-5 pb-5 hackathon w-[100%] mb-5 font-bold underline">
               REGISTER ➚
             </button>
+            </a>
           </div>
         </div>
         <div className="questions">
