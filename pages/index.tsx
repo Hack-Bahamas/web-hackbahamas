@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import * as React from "react";
 import Image from "next/image";
-import hackclub1 from "../public/assets/1hack_club_assemble_00711.svg";
-import hackclub2 from "../public/assets/2hack_club_assemble_01601.svg";
-import hackclub from "../public/assets/dinoassemble.svg";
+import hackclub1 from "../public/assets/1hack_club_assemble_00711.jpg";
+import hackclub2 from "../public/assets/2hack_club_assemble_01601.jpg";
+import hackclub from "../public/assets/0hack_club_assemble_01887.jpg";
 
 const Home: NextPage = () => {
   const [counter, setCounter] = React.useState(3);
