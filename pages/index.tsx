@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import * as React from "react";
 import Image from "next/image";
-import hackclub1 from "../public/assets/1hack_club_assemble_00711.jpg";
-import hackclub2 from "../public/assets/2hack_club_assemble_01601.jpg";
-import hackclub from "../public/assets/dinoassemble.jpg";
+import hackclub1 from "../public/assets/1hack_club_assemble_00711.svg";
+import hackclub2 from "../public/assets/2hack_club_assemble_01601.svg";
+import hackclub from "../public/assets/dinoassemble.svg";
 
 const Home: NextPage = () => {
   const [counter, setCounter] = React.useState(3);
@@ -15,14 +15,14 @@ const Home: NextPage = () => {
   if (counter <= 0) {
     return (
       <>
-        <div className="main text-[84px] hacktext font-extrabold">
+        <div className="main text-[50px] md:text-[84px] hacktext font-extrabold">
           Hack Bahamas
         </div>
-        <div className="text-white md:w-[80%] items-center mx-auto justify-between px-10 mt-5">
+        <div className="text-white md:w-[80%] items-center mx-auto justify-between px-3 md:px-10 mt-5">
           <div className="text-[3rem] font-bold hackathon mt-2">
             What is a Hackathon?
           </div>
-          <div className="hackathon text-[38px] items-center font-extrabold md:w-[60%]">
+          <div className="hackathon  text-[20px] md:text-[38px] items-center font-extrabold md:w-[60%]">
             A <span className="text-blue-300">hackathon</span> is a social
             coding event{" "}
             <span className="text-green-300">where teens come together</span> to
@@ -31,12 +31,12 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="text-white md:w-[80%] items-center mx-auto justify-between px-10 mt-5  ">
-          <div className="text-white hackathon text-[48px]">
+        <div className="text-white md:w-[80%] items-center mx-auto justify-between px-3 md:px-10 mt-5">
+          <div className="text-white hackathon text-[24px] md:text-[48px]">
             At Hack Bahamas, 100+ teenagers will gather to:
           </div>
           <div className="md:flex gap-2">
-            <div className="border-[4px] border-yellow-400 md:w-[40%] px-5  mt-2 ">
+            <div className="border-[4px] border-yellow-400 md:w-[40%] px-5  mt-2 pb-5">
               <div className="font-extrabold text-[32px] mt-5">
                 💡 Share Their Knowledge
               </div>
@@ -53,12 +53,12 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="text-white md:w-[80%] items-center mx-auto justify-between px-10 mt-1  ">
+        <div className="text-white md:w-[80%] items-center mx-auto justify-between px-2 md:px-10  ">
           <div className="md:flex gap-2">
             <div className="border-[4px]  border-black md:w-[40%]  mt-2 ">
               <Image src={hackclub2} className="md:img" />
             </div>
-            <div className="border-[4px]  border-blue-400 md:w-[40%] px-5  mt-2 ">
+            <div className="border-[4px]  border-blue-400 md:w-[40%] px-5 mt-2 pb-5">
               <div className="font-extrabold text-[32px] mt-5">
                 🔨 Build The Unexpected
               </div>
@@ -73,10 +73,10 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="text-white md:w-[80%] items-center mx-auto justify-between px-10">
+        <div className="text-white md:w-[80%] items-center mx-auto justify-between px-2 md:px-10">
           <div className="md:flex gap-2">
-            <div className="border-[4px] border-gray-700 md:w-[40%] px-5  mt-2 ">
-              <div className="font-extrabold text-[32px]">
+            <div className="border-[4px] border-gray-700 md:w-[40%] px-5  mt-2 pb-5">
+              <div className="font-extrabold text-[32px] mt-2">
                 👥 Create Lifelong Memories
               </div>
               <div className=" text-[20px] hackathon font-medium">
@@ -93,7 +93,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="bg-blue-400 mt-5">
-          <div className="text-white md:w-[80%] items-center mx-auto justify-between px-10 mt-10">
+          <div className="text-white md:w-[80%] items-center mx-auto justify-between px-5 mt-10 mdpx-10">
             <div className="underline text-[32px] hackathon font-bold pt-10">
               The Rundown & Registration
             </div>
@@ -129,7 +129,7 @@ const Home: NextPage = () => {
             Anything Else?
           </div>
 
-          <div className="text-white flex gap-5 mt-5">
+          <div className="text-white md:flex gap-5 mt-5">
             <div className="bg-white text-black  md:w-[40%] h-[150px] px-5 rounded-sm">
               <div className="font-bold mt-5">What do I need?</div>
               <div>
@@ -155,7 +155,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="md:w-[80%] items-center mx-auto justify-between px-5 mt-1 mb-5">
-          <div className="text-white flex gap-5 mt-5">
+          <div className="text-white md:flex gap-5 mt-5">
             <div className="bg-white text-black  md:w-[40%] h-[150px] px-5 rounded-sm">
               <div className="font-bold mt-5">
                 I'm not that good at coding...
@@ -192,7 +192,7 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className="text-white mt-5">
+          <div className="text-white mt-5 pb-5">
             Interested in sponsoring & helping create a magical programming
             experience for teenagers in The Bahamas?{" "}
             <a href="mailto:team@hackbahamas.com" className="underline">
@@ -209,13 +209,13 @@ const Home: NextPage = () => {
         </div>
         </div>
         <footer className=" bg-blue-400 h-30 rounded-sm w-full">
-          <div className="text-center pt-10 text-[18px] hackathon text-white">
+          <div className="text-center pt-10 md:text-[18px] hackathon text-white">
             This Event is fiscally sponsored by{" "}
             <a className="underline" href="https://the.hackfoundation.org/">
               The Hack Foundation.
             </a>
           </div>
-          <div className="text-center pb-5 text-white">
+          <div className="text-center pb-5 text-white text-[14px]">
             Source code open sourced at{" "}
             <a href="https://github.com/Hack-Bahamas">
               <span className="font-bold underline">
