@@ -109,13 +109,6 @@ const Home: NextPage = () => {
               school, junior college & pre-university students are welcome to
               join (no experience required!).
             </div>
-            <div className="items-center text-[24px] bg-white text-black px-5 mt-5 pt-5 pb-5 hackathon">
-              <span className="font-bold">COVID-19:</span> We require all
-              participants to be vaccinated against COVID-19 or to have a
-              medical exemption. We will be providing participants with N95
-              masks (for optional but recommended usage, inline with MOH
-              guidelines).
-            </div>
             <a href="http://register.hackbahamas.com/">
             <button className="items-center text-[24px] bg-yellow-500 text-white px-5 mt-5 pt-5 pb-5 hackathon w-[100%] mb-5 font-bold underline">
               REGISTER ➚
