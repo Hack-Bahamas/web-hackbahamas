@@ -99,7 +99,7 @@ const Home: NextPage = () => {
             </div>
             <div className="items-center text-[24px] bg-white text-black px-5 mt-5 pt-5 pb-5 hackathon">
               <span className="font-bold">Date & Time:</span> Starts at 6:00pm
-              on December 17th and ends at 10:00am on December 19th.
+              on December 16th and ends at 10:00am on December 19th.
             </div>
             <div className="items-center text-[24px] bg-white text-black px-5 mt-5 pt-5 pb-5 hackathon">
               <span className="font-bold">Venue:</span> TBD
